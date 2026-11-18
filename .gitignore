@@ -1,0 +1,22 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# FastF1 downloads and local runtime cache
+cache/*
+!cache/.gitkeep
+
+# Build and tool output
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Operating system files
+.DS_Store
+Thumbs.db
